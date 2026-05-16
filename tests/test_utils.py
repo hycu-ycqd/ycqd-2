@@ -1,19 +1,3 @@
-"""QA unit tests for utility helpers."""
-import unittest
-from src.utils.helpers import slugify
-
-
-class TestUtils(unittest.TestCase):
-
-    def test_slugify_spaces(self):
-        self.assertEqual(slugify("Hello World"), "hello-world")
-
-    def test_slugify_uppercase(self):
-        self.assertEqual(slugify("UPPER"), "upper")
-
-    def test_slugify_empty(self):
-        self.assertEqual(slugify(""), "")
-
-
-if __name__ == "__main__":
-    unittest.main()
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b382507846a14845f98f79c72ea8077bd24b0d4922e2f11df6b4f527eba1eae
+size 469
